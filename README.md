@@ -30,7 +30,7 @@ This portfolio was built using the following technologies:
 Want to collaborate, hire me, or just say hello?
 
 - **Email**: harshikarathod42@gmail.com <!-- Replace with actual email -->
-- **LinkedIn**: [linkedin.com/in/harshikarathod](www.linkedin.com/in/harshika-rathod)
+- **LinkedIn**: [linkedin.com/in/harshika-rathod](www.linkedin.com/in/harshika-rathod)
 
 ---
 
