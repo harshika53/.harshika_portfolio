@@ -32,10 +32,10 @@ function Home2() {
                 <b className="purple"> React.js</b> and other modern JavaScript frameworks. Along with that, I regularly practice DSA on  {" "}
 
                 <b className="purple">
-                    Leetcode and HackerRank
+                    Leetcode and HackerRank   
                 </b>
               </i>
-              to get better at problem-solving. I’ve also taken part in hackathons like SIH and CTF events for hands-on experience.
+                   to get better at problem-solving. I’ve also taken part in hackathons like SIH and CTF events for hands-on experience.
               <br />
               <br />
              Apart from that, I’m involved in my college community — I’m the
