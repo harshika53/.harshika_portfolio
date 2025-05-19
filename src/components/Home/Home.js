@@ -8,7 +8,7 @@ function Home() {
   const [displayText, setDisplayText] = useState("");
   const [isTyping, setIsTyping] = useState(true);
   const fullText = "Harshika Rathod";
-  
+
   useEffect(() => {
     if (isTyping) {
       if (displayText.length < fullText.length) {
@@ -42,42 +42,57 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 
-                style={{ 
-                  paddingBottom: 15,
-                  fontSize: "3.5rem",
-                  opacity: 1,
-                  animation: "fadeIn 1s ease-in-out"
-                }} 
-                className="heading font-extrabold mb-4"
-              >
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1>
+              <div className="text-container" style={{ textAlign: "left" }}>
+                <h1 
+                  style={{ 
+                    paddingBottom: 15,
+                    fontSize: "3.5rem",
+                    opacity: 1,
+                    animation: "fadeIn 1s ease-in-out",
+                    margin: 0
+                  }} 
+                  className="heading font-extrabold"
+                >
+                  Hi There!{" "}
+                  <span className="wave" role="img" aria-labelledby="wave">
+                    👋🏻
+                  </span>
+                </h1>
 
-              <h1 
-                className="heading-name font-bold mb-4"
-                style={{ 
-                  fontSize: "4.5rem"
-                }}
-              >
-                I'M
-                <strong 
-                  className="main-name"
-                  style={{
-                    animation: "fadeIn 1.5s ease-in-out",
+                <h1 
+                  className="heading-name font-bold"
+                  style={{ 
+                    fontSize: "4.5rem",
+                    margin: 0
                   }}
                 >
-                  {" "}
-                  {displayText}
-                  <span className="typing-cursor">|</span>
-                </strong>
-              </h1>
+                  I'M
+                  <strong 
+                    className="main-name"
+                    style={{
+                      animation: "fadeIn 1.5s ease-in-out",
+                    }}
+                  >
+                    {" "}
+                    {displayText}
+                    <span className="typing-cursor">|</span>
+                  </strong>
+                </h1>
 
-              <div style={{ padding: 30, textAlign: "left" }}>
-                {/* Reduced padding from 50 to 30 to accommodate larger font */}
+                <div 
+                  style={{
+                    color: "white",
+                    fontSize: "1.8rem",
+                    fontWeight: "400",
+                    marginTop: "9px"
+                  }}
+                >
+                  B.Tech Student at Shri Ramdeobaba College of Engineering , Nagpur
+                </div>
+              </div>
+
+              <div style={{ padding: 30 }}>
+                {/* Space below the text */}
               </div>
             </Col>
 
