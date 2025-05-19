@@ -118,7 +118,10 @@ function Projects() {
               }
               description={
                 <span style={{ marginBottom: "40px", display: "block" }}>
-                  A Google Gemini clone built using React.js and Tailwind CSS.
+                  A Google Gemini clone.
+                  <br />
+                  <br />
+                  Technologies Used : React.js, Tailwind CSS, Google Gemini API.
                 </span>
               }
               ghLink="https://github.com/harshika53/TwinAI"
