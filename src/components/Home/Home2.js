@@ -15,7 +15,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: "2.3em" }}>
               GET <span className="purple"> KNOW MORE  </span> ABOUT ME 
             </h1>
             <p className="home-about-body" style={{ textAlign: "justify" }}>
