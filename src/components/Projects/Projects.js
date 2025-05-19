@@ -32,7 +32,10 @@ function Projects() {
               }
               description={
                 <span style={{ marginBottom: "40px", display: "block" }}>
-                  An AI-powered platform built using Typescript, React and Open Router AI that converts wireframe images into clean React.js and Tailwind CSS code with real-time preview, regeneration, and design history features.
+                  An AI-powered platform that converts wireframe images into clean React.js and Tailwind CSS code with real-time preview, regeneration, and design history features.
+                  <br />
+                  <br />
+                  Techologies used : Typescript, React.js, Open Router AI, Drizzle ORM, Firebase.
                 </span>
               }
               ghLink="https://github.com/harshika53/vision2web"
@@ -52,6 +55,9 @@ function Projects() {
               description={
                 <span style={{ marginBottom: "25px", display: "block" }}>
                   A comprehensive web accessibility scanning tool that leverages Lighthouse and axe-core to evaluate websites for WCAG compliance, providing detailed reports, historical comparisons, actionable recommendations, and a visual dashboard with accessibility metrics and scores.
+                  <br />
+                  <br />
+                  Technologies Used : React.js, Node.js, Express.js, CSS3
                 </span>
               }
               ghLink="https://github.com/harshika53/WebAble"
@@ -69,7 +75,10 @@ function Projects() {
               }
               description={
                 <span style={{ marginBottom: "15px", display: "block" }}>
-                  A real-time IDPS built using HTML, CSS, JavaScript, and Python with Flask to monitor, detect, and block suspicious activities in a network. It automatically identifies malicious IPs from Urls, files, terminates harmful sessions, and integrates firewall protection for enhanced security. Web Scrapping for scrapping the content is used and Redis for caching the content.
+                  A real-time IDPS to monitor, detect, and block suspicious activities in a network. It automatically identifies malicious IPs from Urls, files, terminates harmful sessions, and integrates firewall protection for enhanced security. Web Scrapping for scrapping the content is used and Redis for caching the content.
+                  <br />
+                  <br />
+                  Technologies Used : HTML, CSS, JavaScript, Python, Flask, Redis.
                 </span>
               }
               ghLink="https://github.com/harshika53/IDPS"
@@ -88,6 +97,9 @@ function Projects() {
               description={
                 <span style={{ marginBottom: "10px", display: "block" }}>
                   A static digital platform designed to connect farmers directly with buyers worldwide to provide a seamless and efficient way for farmers to sell their products, promoting sustainability and economic growth.
+                  <br />
+                  <br />
+                  Technologies Used: Typescript, React.js, Tailwind CSS, shadcn-ui. 
                 </span>
               }
               ghLink="https://github.com/harshika53/BharatKrishi-Website"
@@ -125,7 +137,10 @@ function Projects() {
               }
               description={
                 <span style={{ marginBottom: "30px", display: "block" }}>
-                  A simple and intuitive web-based currency converter built using HTML, CSS and Javascript.
+                  A simple and intuitive web-based currency converter.
+                  <br />
+                  <br />
+                  Technologies used : HTML, CSS and Javascript.
                 </span>
               }
               ghLink="https://github.com/harshika53/Currency-Converter"
