@@ -37,8 +37,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <span style={{ color:"#CBC3E3", fontWeight: "bold", fontSize: "28px" }}>
-          H R | Portfolio
+          <span style={{ color:"#B65FCF", fontWeight: "bold", fontSize: "28px" }}>
+          H R <span style={{color:"white"}}>| </span> Portfolio
          </span>
         </Navbar.Brand>
         <Navbar.Toggle
