@@ -1,6 +1,9 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import ztca from '../../Assets/ztca.jpg';
+import networking from '../../Assets/networking_basics.pdf';
+import english from '../../Assets/english_it.pdf';
 import { Row, Col } from "react-bootstrap";
 
 function AboutCard({ type }) {
@@ -37,19 +40,19 @@ function AboutCard({ type }) {
 
   const certifications = [
     {
-      title: "Introduction to Cyber Security",
+      title: "Zscaler Zero Trust Associate(ZTCA)",
+      platform: "Zscaler Academy",
+      link: ztca,
+    },
+    {
+      title: "Networking Basics",
       platform: "Cisco Networking Academy",
-      link: "https://www.netacad.com/cert/12345",
+      link: networking,
     },
     {
-      title: "Python for Everybody",
-      platform: "University of Michigan (Coursera)",
-      link: "https://coursera.org/certificate/xyz123",
-    },
-    {
-      title: "Web Development Bootcamp",
-      platform: "Udemy",
-      link: "https://udemy.com/certificate/abc456",
+      title: "English for IT",
+      platform: "Cisco Networking Academy",
+      link: english,
     },
   ];
 
@@ -67,7 +70,7 @@ function AboutCard({ type }) {
           >
             <Card.Body className="p-3">
               <blockquote className="blockquote mb-2">
-                <p style={{ fontSize: "16px", color: "#d8b4fe" }} className="text-justify">
+                <p style={{ fontSize: "16px", color: "#7347ad" }} className="text-justify">
                   <strong>{cert.title}</strong>
                 </p>
                 <footer className="blockquote-footer text-xs text-justify">{cert.platform}</footer>
