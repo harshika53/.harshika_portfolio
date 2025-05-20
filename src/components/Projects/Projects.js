@@ -58,6 +58,9 @@ function Projects() {
                   <br />
                   <br />
                   <b className="purple">  Technologies Used : </b> React.js, Node.js, Express.js, CSS3
+                  <br />
+                  <br />
+                  <b className="purple">  Status : </b> In Progress
                 </span>
               }
               ghLink="https://github.com/harshika53/WebAble"
