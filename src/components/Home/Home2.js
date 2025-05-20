@@ -19,7 +19,7 @@ function Home2() {
               KNOW WHO <span className="purple"> I'M  </span>
             </h1>
             <p className="home-about-body" style={{ textAlign: "justify" }}>
-               I really enjoy web development — learning new stuff, trying out different tools, and building cool things is what keeps me going.I’ve got a strong interest in <b className="purple">software development </b> and <b className="purple">cloud computing </b> — especially working with <b className="purple"> AWS </b> and I’m always looking for opportunities to contribute to impactful projects in these areas.
+               I really enjoy web development — learning new stuff, trying out different tools, and building cool things is what keeps me going. I’ve got a strong interest in <b className="purple">Frontend development </b> and <b className="purple">cloud computing </b> — especially working with <b className="purple"> AWS. </b> I’m always looking for opportunities to contribute to impactful projects in these areas.
               <br /> 
               <br />
               Lately, I’ve also started exploring cybersecurity a bit, especially through CTF events and hands-on learning. It’s something I’m curious about and plan to dive deeper into.
