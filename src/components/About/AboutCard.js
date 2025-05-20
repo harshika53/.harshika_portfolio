@@ -17,7 +17,7 @@ function AboutCard({ type }) {
         {[
           {
             role: "Literary Head – CySec Committee (IT and Security Department)",
-            desc: "Led the literary initiatives of the department's official tech committee, focusing on content creation, event scripts, and communication.",
+            desc: "Led the literary initiatives of the department's official tech committee, focusing on official documents, event scripts, and communication.",
           },
           {
             role: "Documentation Lead – RBU Cyber Club",
