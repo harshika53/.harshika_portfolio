@@ -66,7 +66,7 @@ function AboutCard({ type }) {
               borderRadius: "8px",
               height: "100%",
             }}
-            className="h-100 shadow-sm"
+             className="h-100 shadow-sm transform transition duration-300 ease-in-out hover:shadow-lg hover:scale-[1.03]"
           >
             <Card.Body className="p-3">
               <blockquote className="blockquote mb-2">
