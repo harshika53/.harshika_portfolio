@@ -6,7 +6,7 @@ import vision2web from "../../Assets/Projects/vision2web.png";
 import webable from "../../Assets/Projects/webable.png";
 import idps from "../../Assets/Projects/idps.png";
 import bharatkrishi from "../../Assets/Projects/bharatkrishi.png";
-import twinAi from "../../Assets/Projects/twinAi.png";
+import todo from "../../Assets/Projects/todo.png";
 import currency from "../../Assets/Projects/currency.png";
 
 function Projects() {
@@ -112,23 +112,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={twinAi}
+              imgPath={todo}
               isBlog={false}
               title={
                 <span style={{ color: "#a020f0", fontWeight: "bold", display: "block", marginBottom: "10px" }}>
-                  TwinAI
+                  Dockerized Flask Todo App
                 </span>
               }
               description={
                 <span style={{ marginBottom: "40px", display: "block" }}>
-                  A Google Gemini clone.
+                  A simple and lightweight To-Do List web application built using Flask and Python, containerized with Docker where User can add, view and delete tasks easily.
                   <br />
                   <br />
-                  <b className="purple">Technologies Used : </b> React.js, Tailwind CSS, Google Gemini API.
+                  <b className="purple">Technologies Used : </b> Python , Flask, Docker, HTML, CSS ,JS.
                 </span>
               }
-              ghLink="https://github.com/harshika53/TwinAI"
-              demoLink="https://google-gemini-alpha-seven-23.vercel.app/"
+              ghLink="https://github.com/harshika53/dockerized-flask-todo"
+              //demoLink="https://google-gemini-alpha-seven-23.vercel.app/"
             />
           </Col>
 
