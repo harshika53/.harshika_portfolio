@@ -8,25 +8,39 @@ import {
   SiLinux,
 } from "react-icons/si";
 
-
 function Toolstack() {
+  const tools = [
+    { icon: <VscVscode />, name: "VS Code" },
+    { icon: <SiVercel />, name: "Vercel" },
+    { icon: <SiFigma />, name: "Figma" },
+    { icon: <SiLinux />, name: "Linux" },
+    { icon: <FaGithub />, name: "GitHub" },
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <VscVscode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFigma />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-       <FaGithub />
-      </Col>
+      {tools.map((tool, index) => (
+        <Col 
+          xs={4} 
+          md={2} 
+          className="tech-icons" 
+          key={index}
+          title={tool.name}
+          style={{
+            position: 'relative',
+            cursor: 'pointer',
+            transition: 'transform 0.3s ease'
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transform = 'scale(1.1)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = 'scale(1)';
+          }}
+        >
+          {tool.icon}
+        </Col>
+      ))}
     </Row>
   );
 }
