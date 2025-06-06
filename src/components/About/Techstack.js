@@ -16,19 +16,43 @@ import {
 } from "react-icons/si";
 
 function Techstack() {
+  const technologies = [
+    { icon: <DiJava />, name: "Java" },
+    { icon: <DiPython />, name: "Python" },
+    { icon: <DiHtml5 />, name: "HTML5" },
+    { icon: <DiCss3 />, name: "CSS3" },
+    { icon: <DiJavascript1 />, name: "JavaScript" },
+    { icon: <DiReact />, name: "React" },
+    { icon: <DiGit />, name: "Git" },
+    { icon: <SiMysql />, name: "MySQL" },
+    { icon: <SiOracle />, name: "Oracle" },
+    { icon: <SiAmazonwebservices />, name: "AWS" },
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons"><DiJava /></Col>
-      <Col xs={4} md={2} className="tech-icons"><DiPython /></Col>
-      <Col xs={4} md={2} className="tech-icons"><DiHtml5 /></Col>
-      <Col xs={4} md={2} className="tech-icons"><DiCss3 /></Col>
-      <Col xs={4} md={2} className="tech-icons"><DiJavascript1 /></Col>
-      <Col xs={4} md={2} className="tech-icons"><DiReact /></Col>
-      <Col xs={4} md={2} className="tech-icons"><DiGit /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiMysql /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiOracle/></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiAmazonwebservices />
-    </Col>
+      {technologies.map((tech, index) => (
+        <Col 
+          xs={4} 
+          md={2} 
+          className="tech-icons" 
+          key={index}
+          title={tech.name} // This adds a basic tooltip
+          style={{
+            position: 'relative',
+            cursor: 'pointer',
+            transition: 'transform 0.3s ease'
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transform = 'scale(1.1)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = 'scale(1)';
+          }}
+        >
+          {tech.icon}
+        </Col>
+      ))}
     </Row>
   );
 }
