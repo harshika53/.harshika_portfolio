@@ -11,27 +11,27 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section" id="about" style={{ paddingTop: "2rem", marginTop: "0" }}>
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.3em" }}>
-              KNOW WHO <span className="purple"> I'M  </span>
+            <h1 style={{ fontSize:"2.3 rem" }}>
+              Get To Know <span className="purple"> Me </span> 
             </h1>
-            <p className="home-about-body" style={{ textAlign: "justify" }}>
-               I really enjoy web development — learning new stuff, trying out different tools, and building cool things is what keeps me going. I’ve got a strong interest in <b className="purple">Frontend development </b> and <b className="purple">cloud computing </b> — especially working with <b className="purple"> AWS. </b> I’m always looking for opportunities to contribute to impactful projects in these areas.
+            <p className="home-about-body" style={{ textAlign: "justify", fontSize: "0.5rem" }}>
+               My journey in tech began with a curiosity for learning, experimenting with new tools, and a strong passion for building and problem-solving. This led me to pursue Computer Science with a focus on Cyber Security. My primary interests lie in <b className="purple">Frontend development </b> and <b className="purple">cloud computing </b> with a particular focus on <b className="purple"> AWS. </b> I actively look for opportunities to contribute to impactful projects and grow through real-world experiences.
               <br /> 
               <br />
-              Lately, I’ve also started exploring cybersecurity a bit, especially through CTF events and hands-on learning. It’s something I’m curious about and plan to dive deeper into.
+              Recently, I have also begun exploring the field of cybersecurity through Capture The Flag (CTF) events and hands-on learning. It is an area I find intriguing and intend to explore further.
               <br />
               <br />
-               These days, I’m focused on improving my skills in <b className="purple"> React.js & Python </b> and other modern <b className="purple"> Javascript frameworks </b> I regularly practice <b className="purple"> DSA </b> on  <b className="purple"> LeetCode </b> and <b className="purple"> HackerRank </b> to get better at problem-solving, and I’ve taken part in hackathons like <b className="purple"> Smart India Hackathon </b> to gain practical experience.
+              Currently, I am dedicated to enhancing my proficiency in <b className="purple"> React.js , Python </b> and other modern <b className="purple"> Javascript frameworks. </b> To strengthen my problem-solving skills, I regularly practice <b className="purple"> DSA </b> on platforms such as  <b className="purple"> Leetcode </b> and more. Participating in national-level hackathons such as <b className="purple"> Smart India Hackathon </b> has further enriched my practical experience and strengthened my collaborative mindset.
                <br />
                <br />
-               My goal is to work on meaningful projects in a dynamic and collaborative environment where I can grow, learn, and help the organization succeed through my contributions.
+               I aspire to work on innovative and meaningful projects in a dynamic, team-oriented environment—where continuous learning and impactful contribution go hand in hand.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar"style={{ marginTop: "2.1rem" }}>
             <Tilt>
               <img src={avatar2} className="img-fluid" alt="avatar"
               style={{ width: "350px", height: "auto" }} />
