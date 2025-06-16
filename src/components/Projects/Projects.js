@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import vision2web from "../../Assets/Projects/vision2web.png";
-import webable from "../../Assets/Projects/webable.png";
+import WebAble from "../../Assets/Projects/WebAble.png";
 import idps from "../../Assets/Projects/idps.png";
 import bharatkrishi from "../../Assets/Projects/bharatkrishi.png";
 import todo from "../../Assets/Projects/todo.png";
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={webable}
+              imgPath={WebAble}
               isBlog={false}
               title={
                 <span style={{ color: "#a020f0", fontWeight: "bold", display: "block", marginBottom: "20px" }}>
